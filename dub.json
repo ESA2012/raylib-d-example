@@ -1,0 +1,15 @@
+{
+	"authors": [
+		"Sergey"
+	],
+	"dependencies": {
+		"raylib-d": "4.2.0"
+	},
+	"libs": [ "raylib" ],
+	"lflags-posix" : ["-L."],
+	"lflags-osx" : ["-rpath", "@executable_path/"],
+	"lflags-linux" : ["-rpath=$$ORIGIN"],
+	"description": "A minimal D application.",
+	"license": "proprietary",
+	"name": "d-ex2"
+}
